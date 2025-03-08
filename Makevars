@@ -1,0 +1,24 @@
+# This is required to install mac/FontManagerMac.mm
+OBJCXX = clang++ -std=c++17
+
+# the following are to point R to the brew installed C/C++ libraries
+CFLAGS=-I/opt/homebrew/include
+CPPFLAGS=-I/opt/homebrew/include
+CXXFLAGS=-I/opt/homebrew/include
+CXX11FLAGS=-I/opt/homebrew/include
+LDFLAGS=-L/opt/homebrew/lib
+
+# IGNORE THIS, THIS IS JUST TO REMIND ME OF A DEAD END I TOOK
+# CC=/opt/homebrew/Cellar/gcc/14.2.0_1/bin/gcc-14
+# CC11=/opt/homebrew/Cellar/gcc/14.2.0_1/bin/gcc-14
+# CC14=/opt/homebrew/Cellar/gcc/14.2.0_1/bin/gcc-14
+# CC17=/opt/homebrew/Cellar/gcc/14.2.0_1/bin/gcc-14
+# CC20=/opt/homebrew/Cellar/gcc/14.2.0_1/bin/gcc-14
+# CC23=/opt/homebrew/Cellar/gcc/14.2.0_1/bin/gcc-14
+
+# CXX=/opt/homebrew/Cellar/gcc/14.2.0_1/bin/g++-14
+# CXX11=/opt/homebrew/Cellar/gcc/14.2.0_1/bin/g++-14
+# CXX14=/opt/homebrew/Cellar/gcc/14.2.0_1/bin/g++-14
+# CXX17=/opt/homebrew/Cellar/gcc/14.2.0_1/bin/g++-14
+# CXX20=/opt/homebrew/Cellar/gcc/14.2.0_1/bin/g++-14
+# CXX23=/opt/homebrew/Cellar/gcc/14.2.0_1/bin/g++-14
